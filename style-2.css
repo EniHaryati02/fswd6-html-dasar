@@ -1,0 +1,188 @@
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(45, 197, 197);
+  display: flex;
+  justify-content: space-around;
+}
+
+h2 {
+  margin: 15px 0;
+  text-align: center;
+}
+
+
+.grid {
+  width: 470px;
+  height: 680px;
+  background-color: rgb(170, 159, 159);
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: 
+  'satu dua dua'
+  'satu tiga empat'
+  'lima tiga enam'
+  'lima tujuh enam'
+  'delapan delapan sembilan'
+  'sepuluh sepuluh sepuluh';
+  gap: 15px;
+  padding: 8px;
+}
+
+.shadow {
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  display: flex;
+}
+
+i {
+  color: paleturquoise;
+  font-size: 1.5em;
+  margin: auto;
+}
+
+.satu {
+  grid-area: satu ;
+  background-color: rgb(29, 131, 61);
+}
+
+.dua{
+  grid-area: dua;
+  background-color: rgb(9, 161, 221);
+}
+
+.tiga {
+  grid-area: tiga;
+  background-color: rgb(187, 204, 29);
+}
+
+.empat {
+  grid-area: empat;
+  background-color: rgb(92, 9, 92);
+}
+
+.lima {
+  grid-area: lima;
+  background-color: rgb(64, 13, 206);
+}
+
+.enam {
+  grid-area: enam;
+  background-color: rgb(145, 8, 31);
+}
+
+.tujuh {
+  grid-area: tujuh;
+  background-color: rgb(146, 175, 233);
+}
+
+.delapan {
+  grid-area: delapan;
+  background-color: rgb(147, 107, 165);
+}
+
+.sembilan {
+  grid-area: sembilan;
+  background-color: rgb(68, 219, 55);
+}
+
+.sepuluh {
+  grid-area: sepuluh;
+  background-color: rgb(212, 99, 24);
+}
+
+
+/* FLEXBOX */
+.flex {
+  width: 470px;
+  height: 680px;
+  background-color: rgb(190, 179, 179);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.flex .satu {
+  width: 219px;
+  height: 217px;
+  margin: 8px;
+}
+
+.flex .dua {
+  width: 219px;
+  height: 107px;
+  margin: 7px;
+}
+
+.flex .tiga {
+  width: 219px;
+  height: 219px;
+  margin: 7px;
+  margin-top: 16px;
+}
+
+.c {
+  display: flex;
+  flex-direction: column;
+}
+
+.e {
+  display: flex;
+}
+
+.flex .tiga {
+  width: 101px;
+  height: 215px;
+  margin: 7px;
+}
+
+.flex .tujuh {
+  width: 101px;   
+  height: 101px;
+  margin: 7px;
+}
+
+.flex .empat {
+  width: 101px;   
+  height: 101px;
+  margin: 7px;
+}
+
+.flex .enam {
+  width: 101px;
+  height: 215px;
+  margin: 7px;
+  margin-top: 16px;
+}
+
+.f {
+  display: flex;
+  flex-direction: column;
+}
+
+.g {
+  display: flex;
+}
+
+.flex .delapan {
+  width: 336px;
+  height: 93px;
+  margin: 7px;
+}
+
+.flex .sembilan {
+  width: 101px;
+  height: 93px;
+  margin: 7px;
+}
+
+.flex .sepuluh {
+  width: 453px;
+  height: 93px;
+  margin: 7px;
+}
